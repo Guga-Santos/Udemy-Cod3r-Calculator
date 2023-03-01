@@ -6,8 +6,12 @@
 }
 
 body {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+
+  background: linear-gradient(to right, rgb(80, 105, 120), rgb(40, 45, 75));
 }
