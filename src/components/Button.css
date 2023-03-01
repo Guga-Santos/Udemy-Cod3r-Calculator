@@ -12,3 +12,12 @@
   outline: none;
   cursor: pointer;
 }
+
+.button:active {
+  filter: brightness(80%);
+}
+
+.button:nth-child(4n -1) {
+  background: #ff8a5c;
+  color: white;
+}

@@ -6,6 +6,7 @@ export default function Button(props) {
     type='button'
     className='button'
     style={props.style}
+    onClick={() => props.click(props.label)}
     >
       {props.label}
     </button>
